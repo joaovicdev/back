@@ -1,0 +1,27 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "module": "module",
+  "description": "",
+  "main": "dist/src/main.js",
+  "scripts": {
+    "compile": "npx tsc",
+    "dev": "npx nodemon --watch 'src/' --exec 'ts-node src/main.ts' -e ts",
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage",
+    "compile:watch": "npx tsc --watch",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "moment": "^2.30.1"
+  }
+}

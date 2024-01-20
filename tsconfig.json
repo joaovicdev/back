@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM"],
+    "target": "ES2022",
+    "module": "CommonJS",
+    "rootDir": "./",
+    "resolveJsonModule": true, /* in case you are importing JSON files */
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+  },
+  "include": ["src/**/*.ts", "src/**/*.js"]
+}
